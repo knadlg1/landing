@@ -1,0 +1,88 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gpsRing" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6c63ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6c63ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hdrG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#2d2a6e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="390" height="844" fill="#f9fafb"/>
+
+  <!-- Status bar -->
+  <rect width="390" height="44" fill="#1e1b4b"/>
+  <text x="20" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="600" fill="#fff">9:41</text>
+  <text x="355" y="30" font-family="Arial,sans-serif" font-size="11" fill="#fff">●●●</text>
+
+  <!-- Header -->
+  <rect x="0" y="44" width="390" height="60" fill="url(#hdrG)"/>
+  <text x="24" y="82" font-family="Arial,sans-serif" font-size="24" font-weight="900" fill="#ffffff">Here</text>
+  <text x="82" y="82" font-family="Arial,sans-serif" font-size="12" fill="#c4b5fd">간호 실습 출결관리</text>
+  <circle cx="356" cy="74" r="16" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="356" cy="69" r="6" fill="rgba(255,255,255,0.75)"/>
+  <path d="M345 83 Q356 77 367 83" fill="rgba(255,255,255,0.75)" stroke="none"/>
+
+  <!-- Hospital card -->
+  <rect x="16" y="120" width="358" height="90" rx="14" fill="#ffffff" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.09))"/>
+  <circle cx="50" cy="162" r="16" fill="#ede9fe"/>
+  <text x="50" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="18">📍</text>
+  <text x="76" y="150" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">배정 실습병원</text>
+  <text x="76" y="168" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">서울대학교병원 내과병동</text>
+  <rect x="76" y="177" width="84" height="22" rx="11" fill="#dcfce7"/>
+  <circle cx="90" cy="188" r="4" fill="#059669"/>
+  <text x="100" y="193" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#059669">GPS 인증됨</text>
+
+  <!-- Kakao auth badge -->
+  <rect x="16" y="225" width="358" height="52" rx="12" fill="#ffffff" filter="drop-shadow(0 1px 4px rgba(0,0,0,0.06))"/>
+  <rect x="30" y="237" width="28" height="28" rx="8" fill="#FEE500"/>
+  <text x="44" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="14">💬</text>
+  <text x="70" y="252" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">카카오 로그인</text>
+  <text x="70" y="268" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#111827">김간호 (본인 인증 완료)</text>
+  <rect x="306" y="237" width="52" height="22" rx="11" fill="#ede9fe"/>
+  <text x="332" y="253" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6c63ff">인증됨</text>
+
+  <!-- GPS visual -->
+  <circle cx="195" cy="430" r="115" fill="url(#gpsRing)"/>
+  <circle cx="195" cy="430" r="82" fill="rgba(108,99,255,0.07)"/>
+  <circle cx="195" cy="430" r="52" fill="rgba(108,99,255,0.12)"/>
+  <circle cx="195" cy="430" r="28" fill="rgba(108,99,255,0.22)"/>
+  <!-- Dashed range circle -->
+  <circle cx="195" cy="430" r="82" fill="none" stroke="#6c63ff" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.5"/>
+  <!-- GPS pin -->
+  <ellipse cx="195" cy="456" rx="10" ry="4" fill="rgba(0,0,0,0.1)"/>
+  <path d="M195 406 C184 406 176 414 176 423 C176 435 195 456 195 456 C195 456 214 435 214 423 C214 414 206 406 195 406Z" fill="#6c63ff"/>
+  <circle cx="195" cy="423" r="7" fill="#ffffff"/>
+
+  <!-- Range label -->
+  <rect x="126" y="316" width="138" height="28" rx="14" fill="rgba(30,27,75,0.88)"/>
+  <text x="195" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="600" fill="#ffffff">실습병원 반경 내 ✓</text>
+
+  <!-- Time -->
+  <text x="195" y="552" text-anchor="middle" font-family="Arial,sans-serif" font-size="46" font-weight="900" fill="#111827" letter-spacing="-2">09:03</text>
+  <text x="195" y="576" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026년 5월 30일 금요일</text>
+
+  <!-- CTA button -->
+  <rect x="32" y="608" width="326" height="70" rx="18" fill="#6c63ff" filter="drop-shadow(0 6px 20px rgba(108,99,255,0.45))"/>
+  <text x="195" y="647" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="900" fill="#ffffff">출근하기</text>
+  <text x="195" y="666" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.78)">GPS + 카카오 3중 인증</text>
+
+  <text x="195" y="706" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">실습병원 반경 내에서만 출근이 가능합니다</text>
+
+  <!-- Bottom nav -->
+  <rect x="0" y="758" width="390" height="86" fill="#ffffff" filter="drop-shadow(0 -1px 6px rgba(0,0,0,0.06))"/>
+  <line x1="0" y1="758" x2="390" y2="758" stroke="#e5e7eb" stroke-width="1"/>
+  <!-- Active tab indicator -->
+  <rect x="51" y="762" width="52" height="3" rx="1.5" fill="#6c63ff"/>
+  <text x="77" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">🏠</text>
+  <text x="77" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#6c63ff" font-weight="700">홈</text>
+  <text x="163" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">📋</text>
+  <text x="163" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">출결내역</text>
+  <text x="249" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">📄</text>
+  <text x="249" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">서류</text>
+  <text x="335" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">👤</text>
+  <text x="335" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">내 정보</text>
+</svg>

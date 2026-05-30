@@ -1,0 +1,91 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="loginBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#2d2a6e"/>
+      <stop offset="100%" stop-color="#f9fafb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="390" height="844" fill="#f9fafb"/>
+  <rect width="390" height="420" fill="url(#loginBg)"/>
+
+  <!-- Status bar -->
+  <text x="20" y="30" font-family="Arial,sans-serif" font-size="13" font-weight="600" fill="#fff">9:41</text>
+  <text x="355" y="30" font-family="Arial,sans-serif" font-size="11" fill="#fff">●●●</text>
+
+  <!-- Logo area -->
+  <text x="195" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-2">Here</text>
+  <text x="195" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="rgba(255,255,255,0.75)">간호 실습 출결관리 시스템</text>
+
+  <!-- Decorative dots -->
+  <circle cx="60" cy="100" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="330" cy="80" r="6" fill="rgba(108,99,255,0.4)"/>
+  <circle cx="340" cy="160" r="3" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="50" cy="180" r="5" fill="rgba(164,148,255,0.3)"/>
+
+  <!-- Badge icons -->
+  <circle cx="120" cy="220" r="28" fill="rgba(255,255,255,0.1)"/>
+  <text x="120" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="24">📱</text>
+  <circle cx="195" cy="220" r="28" fill="rgba(255,255,255,0.1)"/>
+  <text x="195" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="24">💬</text>
+  <circle cx="270" cy="220" r="28" fill="rgba(255,255,255,0.1)"/>
+  <text x="270" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="24">📍</text>
+  <text x="120" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">본인 기기</text>
+  <text x="195" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">카카오</text>
+  <text x="270" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">GPS</text>
+  <text x="195" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">3중 인증 시스템</text>
+
+  <!-- Card -->
+  <rect x="24" y="310" width="342" height="420" rx="20" fill="#ffffff" filter="drop-shadow(0 8px 24px rgba(0,0,0,0.12))"/>
+
+  <text x="195" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#111827">로그인</text>
+  <text x="195" y="382" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">카카오 계정으로 시작하세요</text>
+
+  <!-- Divider -->
+  <line x1="56" y1="400" x2="334" y2="400" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Kakao button -->
+  <rect x="48" y="420" width="294" height="58" rx="14" fill="#FEE500" filter="drop-shadow(0 2px 8px rgba(254,229,0,0.4))"/>
+  <!-- Kakao logo simplified -->
+  <ellipse cx="86" cy="449" rx="16" ry="14" fill="#3C1E1E" opacity="0.85"/>
+  <path d="M78 449 C78 444 82 441 86 441 C90 441 94 444 94 449 C94 453 90 455 86 455" fill="none" stroke="#FEE500" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="195" y="456" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="900" fill="#3C1E1E">카카오 계정으로 로그인</text>
+
+  <!-- Info box -->
+  <rect x="48" y="500" width="294" height="72" rx="12" fill="#f8fafc"/>
+  <text x="195" y="526" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4d44e0">왜 카카오 로그인인가요?</text>
+  <text x="195" y="546" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">카카오는 스마트폰 1대에만 로그인 가능합니다.</text>
+  <text x="195" y="562" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">대리 출결 · 다른 기기 사용을 원천 차단합니다.</text>
+
+  <!-- Steps -->
+  <text x="64" y="604" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#111827">처음 사용 방법</text>
+  <!-- Step 1 -->
+  <circle cx="76" cy="628" r="10" fill="#6c63ff"/>
+  <text x="76" y="633" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#fff">1</text>
+  <text x="96" y="633" font-family="Arial,sans-serif" font-size="12" fill="#374151">카카오 로그인 → 회원가입</text>
+  <!-- Step 2 -->
+  <circle cx="76" cy="658" r="10" fill="#6c63ff"/>
+  <text x="76" y="663" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#fff">2</text>
+  <text x="96" y="663" font-family="Arial,sans-serif" font-size="12" fill="#374151">원장님의 학원 승인 대기</text>
+  <!-- Step 3 -->
+  <circle cx="76" cy="688" r="10" fill="#059669"/>
+  <text x="76" y="693" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#fff">3</text>
+  <text x="96" y="693" font-family="Arial,sans-serif" font-size="12" fill="#374151">승인 완료 → 출결 시작!</text>
+
+  <!-- Bottom -->
+  <text x="195" y="748" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#94a3b8">학생 개인정보는 최소한으로만 수집됩니다</text>
+
+  <!-- Bottom nav -->
+  <rect x="0" y="758" width="390" height="86" fill="#ffffff" filter="drop-shadow(0 -1px 6px rgba(0,0,0,0.06))"/>
+  <line x1="0" y1="758" x2="390" y2="758" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="77" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">🏠</text>
+  <text x="77" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">홈</text>
+  <text x="163" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">📋</text>
+  <text x="163" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">출결내역</text>
+  <text x="249" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">📄</text>
+  <text x="249" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">서류</text>
+  <text x="335" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">👤</text>
+  <text x="335" y="808" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">내 정보</text>
+</svg>

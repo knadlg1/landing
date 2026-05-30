@@ -1,0 +1,190 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#f9fafb"/>
+
+  <!-- Sidebar -->
+  <rect width="240" height="720" fill="#1e1b4b"/>
+  <text x="28" y="56" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#ffffff">Here</text>
+  <text x="28" y="78" font-family="Arial,sans-serif" font-size="12" fill="#c4b5fd">간호 실습 출결 관리</text>
+
+  <!-- Sidebar nav items -->
+  <rect x="12" y="108" width="216" height="44" rx="8" fill="#6c63ff"/>
+  <text x="44" y="136" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff">대시보드</text>
+  <text x="44" y="196" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">학생관리</text>
+  <text x="44" y="248" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">출결현황</text>
+  <text x="44" y="300" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">문서생성</text>
+  <text x="44" y="352" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">설정</text>
+
+  <!-- Sidebar bottom: user info -->
+  <line x1="12" y1="650" x2="228" y2="650" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="40" cy="680" r="18" fill="#6c63ff"/>
+  <text x="40" y="686" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#fff">원</text>
+  <text x="68" y="674" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">홍길동 원장님</text>
+  <text x="68" y="692" font-family="Arial,sans-serif" font-size="11" fill="#c4b5fd">관리자 계정</text>
+
+  <!-- Main area -->
+  <rect x="240" y="0" width="1040" height="720" fill="#f9fafb"/>
+
+  <!-- Top bar -->
+  <rect x="240" y="0" width="1040" height="64" fill="#ffffff" filter="drop-shadow(0 1px 4px rgba(0,0,0,0.06))"/>
+  <text x="276" y="34" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#1e1b4b">대시보드</text>
+  <text x="276" y="54" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">오늘의 실습 출결 현황 · 2026년 5월 30일 금요일</text>
+  <!-- Notification bell -->
+  <circle cx="1224" cy="32" r="20" fill="#f3f4f6"/>
+  <text x="1224" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="18">🔔</text>
+  <circle cx="1236" cy="18" r="7" fill="#dc2626"/>
+  <text x="1236" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#fff">3</text>
+
+  <!-- Stat cards row -->
+  <!-- Card: 출석 -->
+  <rect x="276" y="84" width="218" height="108" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.05))"/>
+  <text x="304" y="114" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">출석</text>
+  <text x="304" y="160" font-family="Arial,sans-serif" font-size="38" font-weight="900" fill="#059669">22</text>
+  <text x="362" y="160" font-family="Arial,sans-serif" font-size="20" fill="#94a3b8">/26</text>
+  <text x="304" y="180" font-family="Arial,sans-serif" font-size="11" fill="#94a3b8">전체 26명 중</text>
+
+  <!-- Card: 지각 -->
+  <rect x="514" y="84" width="218" height="108" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.05))"/>
+  <text x="542" y="114" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">지각</text>
+  <text x="542" y="160" font-family="Arial,sans-serif" font-size="38" font-weight="900" fill="#f59e0b">3</text>
+  <text x="590" y="160" font-family="Arial,sans-serif" font-size="20" fill="#94a3b8">명</text>
+  <text x="542" y="180" font-family="Arial,sans-serif" font-size="11" fill="#94a3b8">10분 이상 지연</text>
+
+  <!-- Card: 결석 -->
+  <rect x="752" y="84" width="218" height="108" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="drop-shadow(0 2px 6px rgba(0,0,0,0.05))"/>
+  <text x="780" y="114" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">결석</text>
+  <text x="780" y="160" font-family="Arial,sans-serif" font-size="38" font-weight="900" fill="#dc2626">1</text>
+  <text x="818" y="160" font-family="Arial,sans-serif" font-size="20" fill="#94a3b8">명</text>
+  <text x="780" y="180" font-family="Arial,sans-serif" font-size="11" fill="#94a3b8">미출근</text>
+
+  <!-- Card: 출석률 (purple highlight) -->
+  <rect x="990" y="84" width="270" height="108" rx="14" fill="#6c63ff" filter="drop-shadow(0 4px 16px rgba(108,99,255,0.35))"/>
+  <text x="1020" y="114" font-family="Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.8)">오늘 출석률</text>
+  <text x="1020" y="162" font-family="Arial,sans-serif" font-size="42" font-weight="900" fill="#ffffff">88%</text>
+  <rect x="1020" y="172" width="80" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="1020" y="172" width="70" height="4" rx="2" fill="#ffffff"/>
+  <text x="1020" y="188" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.75)">주간 평균 87%</text>
+
+  <!-- Real-time attendance table -->
+  <rect x="276" y="212" width="560" height="368" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="304" y="244" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1e1b4b">실시간 출결</text>
+  <rect x="548" y="228" width="70" height="26" rx="13" fill="#dcfce7"/>
+  <circle cx="562" cy="241" r="4" fill="#059669"/>
+  <text x="580" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#059669">실시간</text>
+
+  <line x1="304" y1="262" x2="820" y2="262" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Table header -->
+  <text x="320" y="286" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">이름</text>
+  <text x="450" y="286" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">반</text>
+  <text x="530" y="286" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">출근 시간</text>
+  <text x="640" y="286" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">상태</text>
+  <text x="740" y="286" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">인증</text>
+  <line x1="304" y1="298" x2="820" y2="298" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <text x="320" y="330" font-family="Arial,sans-serif" font-size="14" fill="#111827">김간호</text>
+  <text x="450" y="330" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">A반</text>
+  <text x="530" y="330" font-family="Arial,sans-serif" font-size="14" fill="#111827">09:02</text>
+  <rect x="636" y="314" width="56" height="24" rx="12" fill="#dcfce7"/>
+  <text x="664" y="331" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">출석</text>
+  <text x="740" y="330" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">GPS ✓</text>
+  <line x1="304" y1="348" x2="820" y2="348" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <text x="320" y="380" font-family="Arial,sans-serif" font-size="14" fill="#111827">박민지</text>
+  <text x="450" y="380" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">A반</text>
+  <text x="530" y="380" font-family="Arial,sans-serif" font-size="14" fill="#111827">09:17</text>
+  <rect x="636" y="364" width="56" height="24" rx="12" fill="#fef3c7"/>
+  <text x="664" y="381" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#b45309">지각</text>
+  <text x="740" y="380" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">GPS ✓</text>
+  <line x1="304" y1="398" x2="820" y2="398" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 3 (absent) -->
+  <text x="320" y="430" font-family="Arial,sans-serif" font-size="14" fill="#111827">이서연</text>
+  <text x="450" y="430" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">B반</text>
+  <text x="530" y="430" font-family="Arial,sans-serif" font-size="14" fill="#94a3b8">--:--</text>
+  <rect x="636" y="414" width="56" height="24" rx="12" fill="#fee2e2"/>
+  <text x="664" y="431" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#dc2626">결석</text>
+  <text x="740" y="430" font-family="Arial,sans-serif" font-size="13" fill="#94a3b8">미인증</text>
+  <line x1="304" y1="448" x2="820" y2="448" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <text x="320" y="480" font-family="Arial,sans-serif" font-size="14" fill="#111827">최유진</text>
+  <text x="450" y="480" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">B반</text>
+  <text x="530" y="480" font-family="Arial,sans-serif" font-size="14" fill="#111827">08:58</text>
+  <rect x="636" y="464" width="56" height="24" rx="12" fill="#dcfce7"/>
+  <text x="664" y="481" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">출석</text>
+  <text x="740" y="480" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">GPS ✓</text>
+  <line x1="304" y1="498" x2="820" y2="498" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <text x="320" y="530" font-family="Arial,sans-serif" font-size="14" fill="#111827">정하은</text>
+  <text x="450" y="530" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">C반</text>
+  <text x="530" y="530" font-family="Arial,sans-serif" font-size="14" fill="#111827">09:05</text>
+  <rect x="636" y="514" width="56" height="24" rx="12" fill="#dcfce7"/>
+  <text x="664" y="531" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">출석</text>
+  <text x="740" y="530" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">GPS ✓</text>
+  <line x1="304" y1="548" x2="820" y2="548" stroke="#e5e7eb" stroke-width="1"/>
+
+  <text x="304" y="568" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">... 외 21명</text>
+
+  <!-- View all button -->
+  <rect x="304" y="550" width="510" height="16" fill="#ffffff"/>
+  <rect x="560" y="556" width="96" height="28" rx="8" fill="#ede9fe"/>
+  <text x="608" y="575" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6c63ff">전체 보기 →</text>
+
+  <!-- Weekly chart -->
+  <rect x="856" y="212" width="404" height="368" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="884" y="244" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1e1b4b">주간 출석률 추이</text>
+  <text x="884" y="264" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">이번 주 (5/26 ~ 5/30)</text>
+
+  <!-- Chart baseline -->
+  <line x1="884" y1="520" x2="1240" y2="520" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="884" y="300" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">100%</text>
+  <text x="884" y="370" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">70%</text>
+  <text x="884" y="440" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">40%</text>
+  <!-- Y-axis lines -->
+  <line x1="904" y1="296" x2="1240" y2="296" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="904" y1="366" x2="1240" y2="366" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="904" y1="436" x2="1240" y2="436" stroke="#f3f4f6" stroke-width="1"/>
+
+  <!-- Bars -->
+  <!-- Mon: 85% -->
+  <rect x="918" y="364" width="44" height="156" rx="6" fill="#a78bfa"/>
+  <text x="940" y="352" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6c63ff">85%</text>
+  <!-- Tue: 92% -->
+  <rect x="990" y="334" width="44" height="186" rx="6" fill="#6c63ff"/>
+  <text x="1012" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6c63ff">92%</text>
+  <!-- Wed: 79% -->
+  <rect x="1062" y="380" width="44" height="140" rx="6" fill="#a78bfa"/>
+  <text x="1084" y="368" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6c63ff">79%</text>
+  <!-- Thu: 90% -->
+  <rect x="1134" y="342" width="44" height="178" rx="6" fill="#6c63ff"/>
+  <text x="1156" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6c63ff">90%</text>
+  <!-- Fri: 88% (today, highlighted) -->
+  <rect x="1206" y="350" width="44" height="170" rx="6" fill="#4d44e0"/>
+  <text x="1228" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4d44e0">88%</text>
+
+  <!-- Day labels -->
+  <text x="940" y="542" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">월</text>
+  <text x="1012" y="542" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">화</text>
+  <text x="1084" y="542" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">수</text>
+  <text x="1156" y="542" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">목</text>
+  <text x="1228" y="542" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4d44e0">금(오늘)</text>
+
+  <!-- Quick alert -->
+  <rect x="856" y="596" width="404" height="64" rx="12" fill="#fee2e2"/>
+  <text x="880" y="624" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#dc2626">⚠ 이서연 (B반) — 결석 미확인</text>
+  <text x="880" y="646" font-family="Arial,sans-serif" font-size="12" fill="#dc2626">사유 확인 후 누락확인서 발급이 필요합니다</text>
+
+  <!-- Quick doc button bottom -->
+  <rect x="276" y="596" width="560" height="64" rx="12" fill="#ede9fe"/>
+  <text x="360" y="625" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#4d44e0">오늘 실습근무카드 생성 준비됨</text>
+  <text x="360" y="648" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">A반 · B반 · C반 전체 26명 데이터 자동 집계 완료</text>
+  <rect x="698" y="612" width="116" height="32" rx="8" fill="#6c63ff"/>
+  <text x="756" y="634" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">지금 생성 →</text>
+</svg>

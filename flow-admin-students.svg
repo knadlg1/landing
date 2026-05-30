@@ -1,0 +1,147 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#f9fafb"/>
+
+  <!-- Sidebar -->
+  <rect width="240" height="720" fill="#1e1b4b"/>
+  <text x="28" y="56" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#ffffff">Here</text>
+  <text x="28" y="78" font-family="Arial,sans-serif" font-size="12" fill="#c4b5fd">간호 실습 출결 관리</text>
+
+  <text x="44" y="136" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">대시보드</text>
+  <rect x="12" y="156" width="216" height="44" rx="8" fill="#6c63ff"/>
+  <text x="44" y="184" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff">학생관리</text>
+  <text x="44" y="236" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">출결현황</text>
+  <text x="44" y="288" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">문서생성</text>
+  <text x="44" y="340" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">설정</text>
+
+  <line x1="12" y1="650" x2="228" y2="650" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="40" cy="680" r="18" fill="#6c63ff"/>
+  <text x="40" y="686" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#fff">원</text>
+  <text x="68" y="674" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">홍길동 원장님</text>
+  <text x="68" y="692" font-family="Arial,sans-serif" font-size="11" fill="#c4b5fd">관리자 계정</text>
+
+  <!-- Main area -->
+  <rect x="240" y="0" width="1040" height="720" fill="#f9fafb"/>
+
+  <!-- Top bar -->
+  <rect x="240" y="0" width="1040" height="64" fill="#ffffff" filter="drop-shadow(0 1px 4px rgba(0,0,0,0.06))"/>
+  <text x="276" y="34" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#1e1b4b">학생관리</text>
+  <text x="276" y="54" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">전체 학생 목록 · 출석률 · 상태 관리</text>
+
+  <!-- Search + filter bar -->
+  <rect x="276" y="80" width="400" height="44" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="310" y="108" font-family="Arial,sans-serif" font-size="22" fill="#94a3b8">🔍</text>
+  <text x="340" y="108" font-family="Arial,sans-serif" font-size="14" fill="#94a3b8">이름, 연락처, 반 검색...</text>
+
+  <!-- Filter chips -->
+  <rect x="692" y="84" width="72" height="36" rx="10" fill="#ede9fe"/>
+  <text x="728" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#6c63ff">전체</text>
+  <rect x="776" y="84" width="56" height="36" rx="10" fill="#f3f4f6"/>
+  <text x="804" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">A반</text>
+  <rect x="844" y="84" width="56" height="36" rx="10" fill="#f3f4f6"/>
+  <text x="872" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">B반</text>
+  <rect x="912" y="84" width="56" height="36" rx="10" fill="#f3f4f6"/>
+  <text x="940" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">C반</text>
+
+  <!-- Add student button -->
+  <rect x="1074" y="80" width="182" height="44" rx="10" fill="#6c63ff"/>
+  <text x="1165" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">+ 학생 추가</text>
+
+  <!-- Table -->
+  <rect x="276" y="140" width="980" height="544" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="276" y="140" width="980" height="52" rx="14" fill="#f8fafc"/>
+  <text x="310" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">번호</text>
+  <text x="390" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">이름</text>
+  <text x="510" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">연락처</text>
+  <text x="680" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">실습병원</text>
+  <text x="860" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">반</text>
+  <text x="930" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">출석률</text>
+  <text x="1060" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">상태</text>
+  <text x="1160" y="172" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">관리</text>
+  <line x1="276" y1="192" x2="1256" y2="192" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="310" y="230" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">01</text>
+  <circle cx="404" cy="222" r="16" fill="#ede9fe"/>
+  <text x="404" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6c63ff">김</text>
+  <text x="428" y="230" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">김간호</text>
+  <text x="510" y="230" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">010-2345-1001</text>
+  <text x="680" y="230" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">서울대학교병원</text>
+  <text x="860" y="230" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">A반</text>
+  <text x="930" y="230" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#059669">96%</text>
+  <rect x="1040" y="212" width="72" height="26" rx="13" fill="#dcfce7"/>
+  <text x="1076" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">활성</text>
+  <text x="1160" y="230" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">수정</text>
+  <line x1="276" y1="250" x2="1256" y2="250" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <text x="310" y="290" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">02</text>
+  <circle cx="404" cy="282" r="16" fill="#ede9fe"/>
+  <text x="404" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6c63ff">박</text>
+  <text x="428" y="290" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">박민지</text>
+  <text x="510" y="290" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">010-2345-1002</text>
+  <text x="680" y="290" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">세브란스병원</text>
+  <text x="860" y="290" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">A반</text>
+  <text x="930" y="290" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#6c63ff">88%</text>
+  <rect x="1040" y="272" width="72" height="26" rx="13" fill="#dcfce7"/>
+  <text x="1076" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">활성</text>
+  <text x="1160" y="290" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">수정</text>
+  <line x1="276" y1="310" x2="1256" y2="310" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 3 (warning) -->
+  <rect x="276" y="310" width="980" height="60" fill="#fffbeb" opacity="0.6"/>
+  <text x="310" y="350" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">03</text>
+  <circle cx="404" cy="342" r="16" fill="#fee2e2"/>
+  <text x="404" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#dc2626">이</text>
+  <text x="428" y="350" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">이서연</text>
+  <text x="510" y="350" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">010-2345-1003</text>
+  <text x="680" y="350" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">고려대학교병원</text>
+  <text x="860" y="350" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">B반</text>
+  <text x="930" y="350" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#dc2626">72%</text>
+  <rect x="1040" y="332" width="72" height="26" rx="13" fill="#fee2e2"/>
+  <text x="1076" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#dc2626">주의</text>
+  <text x="1160" y="350" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">수정</text>
+  <line x1="276" y1="370" x2="1256" y2="370" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <text x="310" y="410" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">04</text>
+  <circle cx="404" cy="402" r="16" fill="#ede9fe"/>
+  <text x="404" y="408" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6c63ff">최</text>
+  <text x="428" y="410" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">최유진</text>
+  <text x="510" y="410" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">010-2345-1004</text>
+  <text x="680" y="410" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">서울아산병원</text>
+  <text x="860" y="410" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">B반</text>
+  <text x="930" y="410" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#059669">94%</text>
+  <rect x="1040" y="392" width="72" height="26" rx="13" fill="#dcfce7"/>
+  <text x="1076" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">활성</text>
+  <text x="1160" y="410" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">수정</text>
+  <line x1="276" y1="430" x2="1256" y2="430" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <text x="310" y="470" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">05</text>
+  <circle cx="404" cy="462" r="16" fill="#ede9fe"/>
+  <text x="404" y="468" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6c63ff">정</text>
+  <text x="428" y="470" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">정하은</text>
+  <text x="510" y="470" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">010-2345-1005</text>
+  <text x="680" y="470" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">삼성서울병원</text>
+  <text x="860" y="470" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">C반</text>
+  <text x="930" y="470" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#6c63ff">85%</text>
+  <rect x="1040" y="452" width="72" height="26" rx="13" fill="#dcfce7"/>
+  <text x="1076" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">활성</text>
+  <text x="1160" y="470" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">수정</text>
+  <line x1="276" y1="490" x2="1256" y2="490" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- More rows hint -->
+  <text x="556" y="538" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#94a3b8">... 외 21명 더 보기</text>
+
+  <!-- Pagination -->
+  <text x="276" y="650" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">전체 26명 · 활성 24명 · 주의 2명</text>
+  <rect x="1116" y="636" width="36" height="28" rx="6" fill="#6c63ff"/>
+  <text x="1134" y="655" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+  <rect x="1158" y="636" width="36" height="28" rx="6" fill="#f3f4f6"/>
+  <text x="1176" y="655" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2</text>
+  <rect x="1200" y="636" width="36" height="28" rx="6" fill="#f3f4f6"/>
+  <text x="1218" y="655" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">→</text>
+</svg>

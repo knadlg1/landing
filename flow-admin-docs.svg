@@ -1,0 +1,134 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#f9fafb"/>
+
+  <!-- Sidebar -->
+  <rect width="240" height="720" fill="#1e1b4b"/>
+  <text x="28" y="56" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#ffffff">Here</text>
+  <text x="28" y="78" font-family="Arial,sans-serif" font-size="12" fill="#c4b5fd">간호 실습 출결 관리</text>
+
+  <text x="44" y="136" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">대시보드</text>
+  <text x="44" y="188" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">학생관리</text>
+  <text x="44" y="240" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">출결현황</text>
+  <rect x="12" y="256" width="216" height="44" rx="8" fill="#6c63ff"/>
+  <text x="44" y="284" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff">문서생성</text>
+  <text x="44" y="336" font-family="Arial,sans-serif" font-size="15" fill="#c4b5fd">설정</text>
+
+  <line x1="12" y1="650" x2="228" y2="650" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="40" cy="680" r="18" fill="#6c63ff"/>
+  <text x="40" y="686" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#fff">원</text>
+  <text x="68" y="674" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">홍길동 원장님</text>
+  <text x="68" y="692" font-family="Arial,sans-serif" font-size="11" fill="#c4b5fd">관리자 계정</text>
+
+  <!-- Main area -->
+  <rect x="240" y="0" width="1040" height="720" fill="#f9fafb"/>
+
+  <!-- Top bar -->
+  <rect x="240" y="0" width="1040" height="64" fill="#ffffff" filter="drop-shadow(0 1px 4px rgba(0,0,0,0.06))"/>
+  <text x="276" y="34" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#1e1b4b">문서 생성</text>
+  <text x="276" y="54" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">출결 데이터 기반 · 클릭 한 번으로 PDF 자동 생성</text>
+
+  <!-- Doc type selector cards -->
+  <text x="276" y="96" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#111827">서류 종류 선택</text>
+
+  <!-- Card 1: 실습근무카드 (selected) -->
+  <rect x="276" y="108" width="290" height="160" rx="14" fill="#6c63ff" filter="drop-shadow(0 4px 16px rgba(108,99,255,0.35))"/>
+  <rect x="300" y="128" width="54" height="70" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <line x1="312" y1="150" x2="342" y2="150" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="312" y1="164" x2="342" y2="164" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="312" y1="178" x2="330" y2="178" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+  <text x="300" y="222" font-family="Arial,sans-serif" font-size="17" font-weight="900" fill="#ffffff">실습근무카드</text>
+  <text x="300" y="244" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">학생별 출퇴근 기록 정리</text>
+  <!-- Selected indicator -->
+  <circle cx="548" cy="122" r="10" fill="#ffffff"/>
+  <text x="548" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#6c63ff">✓</text>
+
+  <!-- Card 2: 수강증명서 -->
+  <rect x="586" y="108" width="290" height="160" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="610" y="128" width="54" height="70" rx="8" fill="#dcfce7"/>
+  <circle cx="637" cy="155" r="16" fill="#059669"/>
+  <text x="637" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">✓</text>
+  <line x1="610" y1="186" x2="664" y2="186" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round"/>
+  <text x="610" y="222" font-family="Arial,sans-serif" font-size="17" font-weight="900" fill="#111827">수강증명서</text>
+  <text x="610" y="244" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">교육 이수 증명 서류</text>
+
+  <!-- Card 3: 누락확인서 -->
+  <rect x="896" y="108" width="360" height="160" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="920" y="128" width="54" height="70" rx="8" fill="#fee2e2"/>
+  <path d="M934 144 L962 172" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <path d="M962 144 L934 172" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <text x="920" y="222" font-family="Arial,sans-serif" font-size="17" font-weight="900" fill="#111827">누락확인서</text>
+  <text x="920" y="244" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">출결 누락 사유 확인</text>
+
+  <!-- Generation options bar -->
+  <rect x="276" y="288" width="980" height="64" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="304" y="316" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#111827">생성 대상</text>
+  <rect x="396" y="300" width="140" height="36" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="420" y="323" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">A반 전체 ▾</text>
+  <rect x="552" y="300" width="140" height="36" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="576" y="323" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026년 5월 ▾</text>
+  <text x="714" y="322" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">· 10명 선택됨</text>
+  <rect x="1038" y="300" width="186" height="36" rx="10" fill="#6c63ff"/>
+  <text x="1131" y="323" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">PDF 일괄 생성</text>
+
+  <!-- Recent docs table -->
+  <rect x="276" y="372" width="980" height="316" rx="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="304" y="404" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1e1b4b">최근 생성 문서</text>
+  <text x="1100" y="404" font-family="Arial,sans-serif" font-size="13" fill="#6c63ff">전체보기 →</text>
+  <line x1="304" y1="420" x2="1240" y2="420" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Table header -->
+  <text x="320" y="444" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">파일명</text>
+  <text x="780" y="444" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">대상</text>
+  <text x="920" y="444" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">생성일</text>
+  <text x="1060" y="444" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">상태</text>
+  <text x="1180" y="444" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#6b7280">다운로드</text>
+  <line x1="304" y1="456" x2="1240" y2="456" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="316" y="468" width="22" height="28" rx="4" fill="#ede9fe"/>
+  <text x="327" y="487" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#6c63ff">PDF</text>
+  <text x="350" y="488" font-family="Arial,sans-serif" font-size="14" fill="#111827">실습근무카드_A반_2026-05.pdf</text>
+  <text x="780" y="488" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">A반 · 10명</text>
+  <text x="920" y="488" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026.05.30</text>
+  <rect x="1040" y="472" width="70" height="24" rx="12" fill="#dcfce7"/>
+  <text x="1075" y="489" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">완료</text>
+  <text x="1190" y="488" font-family="Arial,sans-serif" font-size="13" fill="#6c63ff">↓ 저장</text>
+  <line x1="304" y1="508" x2="1240" y2="508" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <rect x="316" y="520" width="22" height="28" rx="4" fill="#ede9fe"/>
+  <text x="327" y="539" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#6c63ff">PDF</text>
+  <text x="350" y="540" font-family="Arial,sans-serif" font-size="14" fill="#111827">누락확인서_이서연_2026-05-29.pdf</text>
+  <text x="780" y="540" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">B반 · 이서연</text>
+  <text x="920" y="540" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026.05.29</text>
+  <rect x="1040" y="524" width="70" height="24" rx="12" fill="#dcfce7"/>
+  <text x="1075" y="541" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">완료</text>
+  <text x="1190" y="540" font-family="Arial,sans-serif" font-size="13" fill="#6c63ff">↓ 저장</text>
+  <line x1="304" y1="560" x2="1240" y2="560" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <rect x="316" y="572" width="22" height="28" rx="4" fill="#ede9fe"/>
+  <text x="327" y="591" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#6c63ff">PDF</text>
+  <text x="350" y="592" font-family="Arial,sans-serif" font-size="14" fill="#111827">수강증명서_김간호_2026-05.pdf</text>
+  <text x="780" y="592" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">A반 · 김간호</text>
+  <text x="920" y="592" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026.05.28</text>
+  <rect x="1040" y="576" width="70" height="24" rx="12" fill="#dcfce7"/>
+  <text x="1075" y="593" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#059669">완료</text>
+  <text x="1190" y="592" font-family="Arial,sans-serif" font-size="13" fill="#6c63ff">↓ 저장</text>
+  <line x1="304" y1="612" x2="1240" y2="612" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <rect x="316" y="624" width="22" height="28" rx="4" fill="#fef3c7"/>
+  <text x="327" y="643" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#b45309">PDF</text>
+  <text x="350" y="644" font-family="Arial,sans-serif" font-size="14" fill="#111827">실습근무카드_B반_2026-05.pdf</text>
+  <text x="780" y="644" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">B반 · 8명</text>
+  <text x="920" y="644" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">2026.05.27</text>
+  <rect x="1040" y="628" width="70" height="24" rx="12" fill="#fef3c7"/>
+  <text x="1075" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#b45309">대기</text>
+  <text x="1190" y="644" font-family="Arial,sans-serif" font-size="13" fill="#94a3b8">준비중</text>
+
+  <!-- Info bar at bottom -->
+  <rect x="276" y="664" width="980" height="0" rx="0" fill="none"/>
+  <text x="276" y="700" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">생성된 서류는 Here 서버에 영구 보관됩니다 · 학원별 데이터 완전 분리 · 심사 대비 언제든 다운로드 가능</text>
+</svg>

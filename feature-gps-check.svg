@@ -1,0 +1,92 @@
+<svg width="390" height="690" viewBox="0 0 390 690" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="mapRad" cx="50%" cy="52%" r="50%">
+      <stop offset="0%" stop-color="#dde8ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c7d8f5" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="rangeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6c63ff" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#6c63ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#6c63ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="390" height="690" fill="#f9fafb"/>
+
+  <!-- Header -->
+  <rect width="390" height="100" fill="#1e1b4b"/>
+  <text x="24" y="44" font-family="Arial,sans-serif" font-size="13" font-weight="600" fill="#c4b5fd">GPS 위치 검증</text>
+  <text x="24" y="72" font-family="Arial,sans-serif" font-size="22" font-weight="900" fill="#ffffff">실습병원 반경 내 출결</text>
+  <text x="24" y="92" font-family="Arial,sans-serif" font-size="12" fill="rgba(255,255,255,0.6)">학생별 배정 실습병원에서만 출결 승인</text>
+
+  <!-- Map area -->
+  <rect x="0" y="100" width="390" height="360" fill="url(#mapRad)"/>
+
+  <!-- Street grid (simplified) -->
+  <line x1="0" y1="200" x2="390" y2="200" stroke="#b8cce8" stroke-width="1.5"/>
+  <line x1="0" y1="280" x2="390" y2="280" stroke="#b8cce8" stroke-width="1.5"/>
+  <line x1="0" y1="360" x2="390" y2="360" stroke="#b8cce8" stroke-width="1.5"/>
+  <line x1="80" y1="100" x2="80" y2="460" stroke="#b8cce8" stroke-width="1.5"/>
+  <line x1="180" y1="100" x2="180" y2="460" stroke="#b8cce8" stroke-width="1.5"/>
+  <line x1="290" y1="100" x2="290" y2="460" stroke="#b8cce8" stroke-width="1.5"/>
+
+  <!-- Buildings (gray blocks) -->
+  <rect x="20" y="120" width="44" height="64" rx="4" fill="#b5c8e0"/>
+  <rect x="96" y="130" width="60" height="54" rx="4" fill="#b5c8e0"/>
+  <rect x="196" y="120" width="70" height="40" rx="4" fill="#b5c8e0"/>
+  <rect x="308" y="128" width="62" height="52" rx="4" fill="#b5c8e0"/>
+  <rect x="20" y="218" width="38" height="44" rx="4" fill="#b5c8e0"/>
+  <rect x="96" y="210" width="52" height="50" rx="4" fill="#b5c8e0"/>
+  <rect x="308" y="210" width="50" height="48" rx="4" fill="#b5c8e0"/>
+  <rect x="20" y="296" width="44" height="44" rx="4" fill="#b5c8e0"/>
+  <rect x="308" y="296" width="62" height="44" rx="4" fill="#b5c8e0"/>
+
+  <!-- Hospital building (highlighted) -->
+  <rect x="192" y="220" width="88" height="58" rx="6" fill="#ffffff" stroke="#6c63ff" stroke-width="2"/>
+  <text x="236" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#6c63ff">서울대학교</text>
+  <text x="236" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#6c63ff">병원</text>
+  <!-- Red cross -->
+  <rect x="230" y="264" width="12" height="4" rx="2" fill="#dc2626"/>
+  <rect x="234" y="260" width="4" height="12" rx="2" fill="#dc2626"/>
+
+  <!-- GPS range circle -->
+  <circle cx="236" cy="268" r="96" fill="url(#rangeGrad)" stroke="#6c63ff" stroke-width="1.5" stroke-dasharray="8 5"/>
+
+  <!-- Hospital pin -->
+  <ellipse cx="236" cy="292" rx="8" ry="3" fill="rgba(108,99,255,0.3)"/>
+  <path d="M236 254 C229 254 223 260 223 267 C223 276 236 292 236 292 C236 292 249 276 249 267 C249 260 243 254 236 254Z" fill="#6c63ff"/>
+  <circle cx="236" cy="267" r="5" fill="#ffffff"/>
+
+  <!-- Student location dot -->
+  <circle cx="148" cy="330" r="10" fill="#059669" opacity="0.9"/>
+  <circle cx="148" cy="330" r="6" fill="#ffffff"/>
+  <circle cx="148" cy="330" r="18" fill="rgba(5,150,105,0.2)" stroke="rgba(5,150,105,0.4)" stroke-width="1"/>
+  <!-- Student label -->
+  <rect x="98" y="350" width="64" height="22" rx="11" fill="#059669"/>
+  <text x="130" y="366" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff">학생 위치</text>
+
+  <!-- Range label -->
+  <rect x="262" y="186" width="88" height="22" rx="11" fill="#1e1b4b" opacity="0.85"/>
+  <text x="306" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff">반경 200m</text>
+
+  <!-- Status cards -->
+  <rect x="16" y="476" width="166" height="90" rx="14" fill="#ffffff" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+  <circle cx="44" cy="508" r="14" fill="#dcfce7"/>
+  <text x="44" y="513" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">✓</text>
+  <text x="68" y="504" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">출결 상태</text>
+  <text x="68" y="522" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#059669">승인 가능</text>
+  <text x="28" y="552" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">실습병원 반경 내 위치</text>
+
+  <rect x="198" y="476" width="176" height="90" rx="14" fill="#ffffff" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.08))"/>
+  <circle cx="226" cy="508" r="14" fill="#fee2e2"/>
+  <text x="226" y="513" text-anchor="middle" font-family="Arial,sans-serif" font-size="16">✕</text>
+  <text x="250" y="504" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">반경 이탈 시</text>
+  <text x="250" y="522" font-family="Arial,sans-serif" font-size="15" font-weight="900" fill="#dc2626">출결 불가</text>
+  <text x="210" y="552" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">반경 밖 → 출근 버튼 비활성</text>
+
+  <!-- Bottom info -->
+  <rect x="16" y="582" width="358" height="56" rx="12" fill="#ede9fe"/>
+  <text x="195" y="608" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#4d44e0">학생별 실습병원 개별 지정 가능</text>
+  <text x="195" y="628" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6c63ff">병원 변경 · 반경 조정도 원장님이 직접 설정</text>
+</svg>
