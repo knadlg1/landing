@@ -985,9 +985,22 @@
           </li>
         </ul>
       </div>
-      <div class="problem-visual">
-        <video src="gps.mp4" autoplay loop muted playsinline
-               style="width:100%;display:block;"></video>
+      <div class="problem-visual" style="display:flex; flex-direction:column; gap:12px;">
+        <!-- 공문 PDF -->
+        <div style="border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.08);">
+          <div style="background:#f1f5f9; padding:8px 14px; font-size:0.78rem; font-weight:700; color:#475569; border-bottom:1px solid #e5e7eb;">
+            📄 간호조무사 교육훈련기관 운영 관련 개선 조치 안내 (2026. 5.)
+          </div>
+          <iframe src="notice.pdf" style="width:100%; height:480px; border:none; display:block;"></iframe>
+        </div>
+        <!-- 강조 부분 callout (highlight.png 가 있으면 표시) -->
+        <div style="border:2px solid #6c63ff; border-radius:10px; overflow:hidden; position:relative;">
+          <div style="background:#6c63ff; padding:6px 12px; font-size:0.78rem; font-weight:700; color:#fff;">
+            🔍 핵심 조항 확대
+          </div>
+          <img src="highlight.png" alt="핵심 조항" style="width:100%; display:block;"
+               onerror="this.parentElement.style.display='none';">
+        </div>
       </div>
     </div>
 
